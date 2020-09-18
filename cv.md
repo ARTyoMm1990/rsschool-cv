@@ -21,4 +21,4 @@
 4.  2014 - Java- android - Belhard.
 
 #### English
-* A2 (Pre-intermediate) - Certificate academy Leader...
+* A2 (Pre-intermediate) - Certificate academy Leader.
