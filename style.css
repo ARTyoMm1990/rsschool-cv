@@ -1,0 +1,21 @@
+<div class="implement">{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 2;
+    overflow: hidden;
+    background-image: url(./static/back.jpg);
+    background-size: cover;
+}
+<div class="content"> {
+    max-width: 1024px;
+    margin: auto;
+    padding: 10px 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: whitesmoke;
+    line-height: 35px;
+}
+ </div>
+ </div>
