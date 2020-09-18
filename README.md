@@ -1,2 +1,2 @@
 # rsschool-cv
-CV
+https://ARTyoMm1990.github.io/rsschool-cv/cv
