@@ -7,7 +7,7 @@
     overflow: hidden;
    }
 .content {
-    max-width: auto;
+    max-width: 1080px;
     margin: auto;
     padding: 15px 25px;
     color: #1049A9;
