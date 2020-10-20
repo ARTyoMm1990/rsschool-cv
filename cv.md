@@ -23,7 +23,7 @@
 6.  now - rs school -JS / FRONT-END (РУС) - Free.
 
 #### Literature
-   *  Роман Cавин - tестирование dot com</p>
+   *  Роман Cавин - tестирование dot com
    *  now - Святослав Куликов - Тестирование программного обеспечения
 
 #### English
