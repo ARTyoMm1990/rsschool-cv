@@ -1,5 +1,3 @@
-## rsschool-cv
-
 ## Artsiom Bobekh
 
 #### Contacts
