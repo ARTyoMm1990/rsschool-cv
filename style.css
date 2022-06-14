@@ -1,18 +1,242 @@
-.implement{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 2;
-    overflow: hidden;
-   }
-.content {
-    max-width: 1080px;
-    margin: auto;
-    padding: 15px 25px;
-    color: #1049A9;
-    line-height: 30px;
+* {
+    box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins-Regular', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #3e5151;
+}
+
+.header {
+    background-image: linear-gradient(to bottom, #3e5151, #a79470);
+}
+
+.main {
+    background-color: #faf7f0;
+}
+
+.container {
+    max-width: 1440px;
+    min-height: 50px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    position: relative;
+    padding: 0 12px;
+    font-size: 20px;
+    line-height: 50px;
+    color: #faf7f0;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #f3d347;
+}   
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section {
+    width: 50%;
+    padding: 10px 10px 20px 10px;
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 10px solid #d7d1c9;
+}
+
+.section-profile-logo {
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #a79470;
+}
+
+.main-title {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    word-spacing: 3px;
+    color: #3e5151;
+}
+
+.section-subtitle {
+    margin-top: 20px;
+    line-height: 50px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #3e5151;
+}
+
+.section-contacts .section-item {
+    list-style-type: none;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #a79470;
+    transition: 0.3s;
+}
+
+.contact-item a:hover {
+    color: #3e5151;
+}
+
+.contact-item:first-child::before {
+    position: relative;
+    content: "";
+    top: 5px;
+    left: 0px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    background-image: url("assets/svg/location.svg");
+}
+
+.contact-item:nth-child(2)::before {
+    position: relative;
+    content: "";
+    top: 5px;
+    left: 0px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    background-image: url("assets/svg/email.svg");
+}
+
+.contact-item:nth-child(3)::before {
+    position: relative;
+    content: "";
+    top: 5px;
+    left: 0px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    background-image: url("assets/svg/github.svg");
+}
+
+.contact-item:nth-child(4)::before {
+    position: relative;
+    content: "";
+    top: 5px;
+    left: 0px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    background-image: url("assets/svg/telegram.svg");
+}
+
+.contact-item:nth-child(5)::before {
+    position: relative;
+    content: "";
+    top: 5px;
+    left: 0px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    background-image: url("assets/svg/discord.svg");
+}
+
+.section-summary>p {
+    text-indent: 40px;
+}
+
+.section-skills .section-list,
+.section-courses .section-list {
+    padding-left: 80px;
+}
+
+.section-education .section-list {
+    margin-top: -15px;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #d7d1c9;
+    border-radius: 5px;
+}
+
+.pre {
+    width: 300px;
+    margin-left: 75px;
+    padding: 5px;
+    background: #d7d1c9;
+    border-radius: 5px;
+}
+
+.section-projects a {
+    padding-left: 80px;
+    text-decoration: none;
+    color:#a79470;
+    transition: 0.3s;
+}
+
+.section-projects a:hover {
+    color: #3e5151;
+}
+
+.section-english p {
+    padding-left: 40px;
+}
+
 .footer {
     padding: 20px;
     background-image: linear-gradient(to top, #3e5151, #a79470);
