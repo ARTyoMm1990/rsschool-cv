@@ -13,3 +13,36 @@
     color: #1049A9;
     line-height: 30px;
 }
+.footer {
+    padding: 20px;
+    background-image: linear-gradient(to top, #3e5151, #a79470);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #faf7f0;
+}
+
+.github-logo {
+    position: relative;
+    top:10px;
+    width: 130px;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.github .github-logo:hover {
+    opacity: 1;
+}
+
+.rss-logo {
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.rss .rss-logo:hover {
+    opacity: 1;
+}
