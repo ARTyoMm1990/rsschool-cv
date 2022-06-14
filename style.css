@@ -28,7 +28,23 @@ body {
     background-color: #faf7f0;
 }
 
-.container {
+.implement{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    overflow: hidden;
+   }
+
+.content {
+    max-width: 1080px;
+    margin: auto;
+    padding: 15px 25px;
+    color: #1049A9;
+    line-height: 30px;
+
+    .container {
     max-width: 1440px;
     min-height: 50px;
     margin: 0 auto;
