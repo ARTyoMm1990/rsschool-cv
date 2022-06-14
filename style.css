@@ -22,11 +22,7 @@ html {
     color: #1049A9;
     line-height: 30px;
 
-    .container {
-    max-width: 1440px;
-    min-height: 50px;
-    margin: 0 auto;
-    padding: 0 20px;
+   
 }
 body {
     display: flex;
@@ -49,7 +45,11 @@ body {
 .main {
     background-color: #faf7f0;
 }
-
+ .container {
+    max-width: 1440px;
+    min-height: 50px;
+    margin: 0 auto;
+    padding: 0 20px;
 
 }
 
